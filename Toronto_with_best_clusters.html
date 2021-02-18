@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_28acd41ab52e475e958299155d387c7d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_28acd41ab52e475e958299155d387c7d" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_28acd41ab52e475e958299155d387c7d = L.map(
+                                  'map_28acd41ab52e475e958299155d387c7d',
+                                  {center: [43.7134817,-79.3839347],
+                                  zoom: 12,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_7b9aca548e65456ab5a561df50f768ec = L.tileLayer(
+                'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_28acd41ab52e475e958299155d387c7d);
+        
+    
+            var circle_marker_6b011d4cfdf748ee8bccfd7add9ee981 = L.circleMarker(
+                [43.7128495,-79.547065],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 53.2075,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_28acd41ab52e475e958299155d387c7d);
+            
+    
+            var popup_3436ff822096426d83cfb546ac55823e = L.popup({maxWidth: '300'});
+
+            
+                var html_564902a2c90f450aa25bebc36e6fef69 = $('<div id="html_564902a2c90f450aa25bebc36e6fef69" style="width: 100.0%; height: 100.0%;">Allenby, 1064150.0</div>')[0];
+                popup_3436ff822096426d83cfb546ac55823e.setContent(html_564902a2c90f450aa25bebc36e6fef69);
+            
+
+            circle_marker_6b011d4cfdf748ee8bccfd7add9ee981.bindPopup(popup_3436ff822096426d83cfb546ac55823e);
+
+            
+        
+    
+            var circle_marker_c13eb6beb62f46a48648e29f65d16a83 = L.circleMarker(
+                [43.668864899999996,-79.3891256],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 88.33720000000001,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_28acd41ab52e475e958299155d387c7d);
+            
+    
+            var popup_d4e49641efd2460e81e99f5002220596 = L.popup({maxWidth: '300'});
+
+            
+                var html_d8b70a4980c8407694217a1d1bd7a299 = $('<div id="html_d8b70a4980c8407694217a1d1bd7a299" style="width: 100.0%; height: 100.0%;">Bay Street Corridor, 1766744.0</div>')[0];
+                popup_d4e49641efd2460e81e99f5002220596.setContent(html_d8b70a4980c8407694217a1d1bd7a299);
+            
+
+            circle_marker_c13eb6beb62f46a48648e29f65d16a83.bindPopup(popup_d4e49641efd2460e81e99f5002220596);
+
+            
+        
+    
+            var circle_marker_105df68408e24ab7b596d8feb1644661 = L.circleMarker(
+                [43.6655242,-79.3838011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 45.857600000000005,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_28acd41ab52e475e958299155d387c7d);
+            
+    
+            var popup_3f5a2489948e421fa5e5365d6843a171 = L.popup({maxWidth: '300'});
+
+            
+                var html_92767f1f389a47b09e7b97ee5637ede3 = $('<div id="html_92767f1f389a47b09e7b97ee5637ede3" style="width: 100.0%; height: 100.0%;">Church and Wellesley, 917152.0</div>')[0];
+                popup_3f5a2489948e421fa5e5365d6843a171.setContent(html_92767f1f389a47b09e7b97ee5637ede3);
+            
+
+            circle_marker_105df68408e24ab7b596d8feb1644661.bindPopup(popup_3f5a2489948e421fa5e5365d6843a171);
+
+            
+        
+    
+            var circle_marker_77eb773fa11446339b689858cc3eb170 = L.circleMarker(
+                [43.68809,-79.39409350000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 41.9136,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_28acd41ab52e475e958299155d387c7d);
+            
+    
+            var popup_a15b1ce596d4431ea49a2cde2f7ebc40 = L.popup({maxWidth: '300'});
+
+            
+                var html_bb9801ee358d4252a2fd0746535a6220 = $('<div id="html_bb9801ee358d4252a2fd0746535a6220" style="width: 100.0%; height: 100.0%;">Deer Park, 838272.0</div>')[0];
+                popup_a15b1ce596d4431ea49a2cde2f7ebc40.setContent(html_bb9801ee358d4252a2fd0746535a6220);
+            
+
+            circle_marker_77eb773fa11446339b689858cc3eb170.bindPopup(popup_a15b1ce596d4431ea49a2cde2f7ebc40);
+
+            
+        
+    
+            var circle_marker_dd853eb31363410cb75ab15e71821cf5 = L.circleMarker(
+                [43.7393959,-79.513131],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 63.920750000000005,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_28acd41ab52e475e958299155d387c7d);
+            
+    
+            var popup_bfbf9d56a730446e9f9f67263a80337e = L.popup({maxWidth: '300'});
+
+            
+                var html_eb8e7de43ea94d3e881acf47fa072cb9 = $('<div id="html_eb8e7de43ea94d3e881acf47fa072cb9" style="width: 100.0%; height: 100.0%;">North York City Centre, 1278415.0</div>')[0];
+                popup_bfbf9d56a730446e9f9f67263a80337e.setContent(html_eb8e7de43ea94d3e881acf47fa072cb9);
+            
+
+            circle_marker_dd853eb31363410cb75ab15e71821cf5.bindPopup(popup_bfbf9d56a730446e9f9f67263a80337e);
+
+            
+        
+    
+            var circle_marker_4feda691620b4a4d929fa0ebfc87ee75 = L.circleMarker(
+                [43.6694032,-79.37270409999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 71.2287,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_28acd41ab52e475e958299155d387c7d);
+            
+    
+            var popup_e8e99ec87378409e9d2014a84d107c4f = L.popup({maxWidth: '300'});
+
+            
+                var html_306785dfe37340859bc0129c862a7743 = $('<div id="html_306785dfe37340859bc0129c862a7743" style="width: 100.0%; height: 100.0%;">St. James Town, 1424574.0</div>')[0];
+                popup_e8e99ec87378409e9d2014a84d107c4f.setContent(html_306785dfe37340859bc0129c862a7743);
+            
+
+            circle_marker_4feda691620b4a4d929fa0ebfc87ee75.bindPopup(popup_e8e99ec87378409e9d2014a84d107c4f);
+
+            
+        
+    
+            var circle_marker_4783d604bf5b4099b2b401b5e0396c8a = L.circleMarker(
+                [43.67138610000001,-79.3901677],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 56.80275,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_28acd41ab52e475e958299155d387c7d);
+            
+    
+            var popup_1e7f47c4686f409ababf47f39183e07c = L.popup({maxWidth: '300'});
+
+            
+                var html_a870b46c570d499384f250530041712a = $('<div id="html_a870b46c570d499384f250530041712a" style="width: 100.0%; height: 100.0%;">Yorkville, 1136055.0</div>')[0];
+                popup_1e7f47c4686f409ababf47f39183e07c.setContent(html_a870b46c570d499384f250530041712a);
+            
+
+            circle_marker_4783d604bf5b4099b2b401b5e0396c8a.bindPopup(popup_1e7f47c4686f409ababf47f39183e07c);
+
+            
+        
+</script>
